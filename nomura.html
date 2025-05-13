@@ -7,6 +7,10 @@
   <style>
     body {
       font-family: Arial, sans-serif;
+    }   
+    .images img {
+    display: block;
+    margin-bottom: 1em;
     }
     .mn {
       text-align: center;
@@ -60,12 +64,18 @@
     <h3>臨地実務実習Ⅰ / 1st Clinical Practice</h3>
     <p>株式会社 幻の酒</p>
     <p>自社製品が売り上げランキングで何位になったのかをPower Automate Desktop自動で取得してVBAを使ってExcelに記憶していくシステムを作りました</p>
-    <img src="臨地実務実習1-1.png"width="300"><img src="臨地実務実習1-2.png"width="300">
-
+    <img src="img/臨地実務実習1-1.png"width="300"><img src="img/臨地実務実習1-2.png"width="300"><br>
+    
     <h3>臨地実務実習Ⅱ / 2nd Clinical Practice</h3>
     <p>Adam-innovation</p>
     <p>海外向けECサイトのUIの研究と提案、日本語商品の英語翻訳などを行いました</p>
-    <img src="臨地実務実習2-1.png"width="300"><img src="臨地実務実習2-2.png"width="300">
+    <img src="img/臨地実務実習2-1.png"width="300"><img src="img/臨地実務実習2-2.png"width="300"><br>
+
+    <h3>Ollama使ってみた / Local Ollama</h3>
+    <p>オフライン環境でLLMが使える!?</p>
+    <p>ローカルホストのブラウザ上でOllama（AI）を使えるようにしてみました。</p>
+    <img src="img/Ollama1-1.png"width="300"><img src="img/Ollama1-2.png"width="300"><br>
+
 
     <h3>4/8〜5/13まで</h3>
     <ul>
@@ -75,34 +85,7 @@
       <li>5/13：Lambdaの学習とこのhtmlファイルの作成</li>
     </ul>
 
-    <h3>研究方法 / Research Method</h3>
-    <p>
-      QuickTime Playerを用いて台本に基づく音声を収録。<br>
-      台本は国立情報学研究所「RWCP-SP01」から作成。音声はGoogle Cloud Storageにアップロードし、Google Speech-to-Text APIで認識。<br>
-      言語設定は日本語、話者分離（Speaker Diarization）をON、話者数固定。音声形式はWAV、44100Hz、モノラル。
-    </p>
-
-    <h3>テストデータ / Test Data</h3>
-    <p>
-      <strong>テストデータ1:</strong> 2名（男1・女1）、4分10秒、1414文字（男692・女722）<br>
-      <strong>テストデータ2:</strong> 4名（男2・女2）、4分16秒、1414文字（男2: 692・女2: 722）
-    </p>
-
-    <h3>結論 / Conclusion</h3>
-    <p>
-      話者数が2人までなら実用的。4人以上になると識別エラーのリスクが高まる。<br>
-      会議議事録用途では4人程度までなら十分に活用可能。
-    </p>
-
-    <h3>図・表 / Figures and Tables</h3>
-    <div class="images">
-      <img src="img/okada_01.jpg" alt="システムの流れ">
-      <img src="img/okada_02.jpg" alt="精度評価結果1">
-      <img src="img/okada_03.jpg" alt="精度評価結果2">
-    </div>
-
-    <div class="back-button">
-      <a href="index.html"><input type="button" value="Back to Lab / 研究室に戻る"></a>
+    
     </div>
   </div>
 </body>
